@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  dockerslab:
+    image: dockerslab
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      
